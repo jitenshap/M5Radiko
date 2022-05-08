@@ -1,4 +1,5 @@
 # Radiko player for ESP32  
+forked from jitenshap/radiko-esp32(https://github.com/jitenshap/radiko-esp32)
 ESP-ADF(https://github.com/espressif/esp-adf) のHTTP Stream pipelineを利用したラジコプレイヤーです。  
 ## 必要なもの  
 ESP-ADF v2.4  
