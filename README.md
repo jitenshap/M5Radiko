@@ -1,4 +1,4 @@
-# Radiko player for ESP32  
+# Radiko player for M5Stack Series  
 forked from jitenshap/radiko-esp32(https://github.com/jitenshap/radiko-esp32)  
 ESP-ADF(https://github.com/espressif/esp-adf) のHTTP Stream pipelineを利用したラジコプレイヤーです。  
 ## 必要なもの  
