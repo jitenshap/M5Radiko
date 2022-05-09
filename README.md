@@ -1,9 +1,11 @@
 # Radiko player for M5Stack Series  
 forked from jitenshap/radiko-esp32(https://github.com/jitenshap/radiko-esp32)  
 ESP-ADF(https://github.com/espressif/esp-adf) のHTTP Stream pipelineを利用したラジコプレイヤーです。  
+  
 ## 必要なもの  
-ESP-ADF v2.4  
-ESP-ADF対応ボードまたはM5StickC+SPK HAT(New!)  
+ESP-ADF開発環境  
+M5StickC+SPK HAT  
+M5Atom Echo(New!)  
   
 ## ビルド方法  
 ESP-IDF VS Code Extension(https://github.com/espressif/vscode-esp-idf-extension)  を使うと簡単です  
@@ -16,7 +18,7 @@ ESP-IDF VS Code Extension(https://github.com/espressif/vscode-esp-idf-extension)
 7. プロジェクトフォルダーをVS Codeで開く  
 8. コマンドパレットからSet Espressif Device targetを実行してESP32を選択
 9. コマンドパレットからSDK Configuration Editor(menuconfig)を開く 
-10. Radiko Configurationからauth keyを探してRadikoの認証キーを入力(自力でなんとかしてください)  
+10. Radiko Configurationからauth keyを探してRadikoの認証キーを入力(ライセンス的に…自力でなんとかしてください)  
 12. Audio HAL内Audio board欄から使いたいボードを選択  
 11. Example ConfigurationからWiFi SSID WiFi Passwordを探して入力、Saveボタンを押して閉じる
 13. コマンドパレットからSelect port to useを実行してESP32の書き込み用ポートを設定する  
@@ -31,3 +33,6 @@ Modeボタン: 選局
 #### M5StickC:  
 Aボタン: 停止・再開  
 Bボタン: 選局
+
+#### M5AtomEcho:  
+ボタン: 選局  
